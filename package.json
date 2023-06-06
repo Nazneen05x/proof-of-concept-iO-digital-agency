@@ -1,0 +1,36 @@
+{
+  "name": "proof-of-concept-io-digital-agency",
+  "version": "1.0.0",
+  "description": "Cv webpagina iO digital agency",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "ejs"
+  ],
+  "repository": {
+    "typ": "git",
+    "url": "git+https://github.com/Nazneen05x/proof-of-concept-iO-digital-agency+git"
+  },
+  "author": "Nazneen Sheikkariem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazneen05x/proof-of-concept-iO-digital-agency"
+  },
+  "homepage": "https://github.com/Nazneen05x/proof-of-concept-iO-digital-agency",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
