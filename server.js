@@ -1,4 +1,12 @@
 import express from 'express'
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+
+
+// fs is een nodemodule die ervoor zorgt dat je bij je locale bestanden kunt
+const fs = require('fs');
+const jsonData = fs.readFileSync('beau-ter-ham.json');
+const data = JSON.parse(jsonData);
 
 // Maak een nieuwe express app
 const app = express()
@@ -10,15 +18,15 @@ app.use(express.static('public'))
 
 
 // Maak een route voor de index
+
+
 app.get('/', (request, response) => {
 
-
-    fetchJson().then((data) => {
-        response.render('index')
-    })
+    // Read the JSON file
+    console.log("bliep")
+    console.log(data);
+    response.render('index', { data: data });
 })
-
-
 
 
 
