@@ -1,27 +1,70 @@
 <%- include('./Partials/head') %>
-<main>
-<section>
-<h1><%- data.name %></h1>
-<h2><%- data.personalia.role %></h2>
-<p><%- data.introduction %></p>
+    <main>
+        <!-- INTRODUCTION/SOCIAL LINKS -->
+        <section>
+            <h1><%- data.name %></h1>
+            <h2><%- data.personalia.role %></h2>
+            <p><%- data.introduction %></p>
 
-<h3>EXAMPLE REGION - NL</h3>
-<p>37 Years old</p>
+            <h3>EXAMPLE REGION - NL</h3>
+            <p>37 Years old</p>
 
-<p><%- data.socialLinks %></p>
-<!-- <ul>
-<li><%- data.socialLinks %></li>
-<li><%- data.socialLinks %></li>
-<li><%- data.socialLinks %></li>
-</ul> -->
-</section>
+            <ul>
+                <li>BeauTerHam</li>
+                <li>WithButter</li>
+                <li>Beau ter Ham</li>
+            </ul>
+        </section>
+        <!-- INTRODUCTION (MOTIVATION)/SKILLS -->
+        <section>
+            <h3>Motivation</h3>
+            <p><%- data.motivation %></p>
 
-<section>
-<h3>Motivation</h3>
-<p><%- data.motivation %></p>
+            <% data.skills.forEach(skills=> { %>
+                <ul>
+                    <li>
+                        <%= skills.label %>
+                    </li>
+                </ul>
+                <% }); %>
+        </section>
+        <!-- PROJECTS/WORK EXPERIENCE -->
+        <section>
+            <h3>Projects via iO</h3>
+            <% data.projects.forEach(projects=> { %>
+                <p>
+                    September 2019-present
+                </p>
 
-</section>
-</main>
+                <p>
+                    <%= projects.role %>
+                </p>
+
+                <p>
+                    <%= projects.company %>
+                </p>
+
+                <p>
+                    <%= projects.description %>
+                </p <ul>
+                <li>
+                    Angular
+                </li>
+
+                <li>
+                    CSS
+                </li>
+
+                <li>
+                    JavaScript
+                </li>
+
+                </ul>
+                <% }); %>
+        </section>
 
 
-<%- include('./Partials/foot') %>
+
+
+    </main>
+    <%- include('./Partials/foot') %>
