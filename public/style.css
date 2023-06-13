@@ -20,24 +20,24 @@
 
 /* -----INTRODUCTION STYLING----- */
 
-.backgroundcolor-darkpurple{
+.backgroundcolor-darkpurple {
     background-color: var(--clr-darkpurple);
     padding: 2rem;
-    overflow:hidden
+    overflow: hidden
 }
 
-h1{
+h1 {
     color: white;
     font-size: xx-large;
-} 
+}
 
-h2{
+h2 {
     color: white;
     font-weight: lighter;
     margin-top: 0.4rem;
 }
 
-.introduction-p{
+.introduction-p {
     color: white;
     margin-top: -1rem;
     padding: 2em;
@@ -46,24 +46,24 @@ h2{
 }
 
 
-.iologowhite{
+.iologowhite {
     width: 4em;
     margin-left: 16em;
     margin-top: -1em;
 }
 
 
-.section-introduction{
+.section-introduction {
     z-index: 100;
 }
 
-.ninja{
+.ninja {
     margin-left: 0.3em;
 }
 
 /* -----SOCIAL LINKS----- */
 
-button{
+button {
     border-radius: 1em;
     border: none;
     padding: 1em;
@@ -72,43 +72,43 @@ button{
     background-color: var(--clr-babypink);
 }
 
-.clrdarkpurple{
+.clrdarkpurple {
     background-color: var(--clr-darkpurple);
     color: white;
 }
 
-.colorfulbutton{
+.colorfulbutton {
     margin-left: 0.9em;
 }
 
-.githubicon{
+.githubicon {
     width: 1.5em;
 }
 
-.BeauTerHam{
+.BeauTerHam {
     position: relative;
     left: 0em;
     top: -0.3em;
 }
 
-.iologobutton{
+.iologobutton {
     width: 8em;
 }
 
 /* -----SOCIAL LINKS----- */
 
-.motivationp{
+.motivationp {
     padding: 2rem;
     line-height: 1.5em;
     margin-top: -1em;
 }
 
-h3{
+h3 {
     margin-left: 1.6em;
     margin-top: 2em;
 }
 
-.iologoblack{
+.iologoblack {
     width: 1.5em;
     position: relative;
     top: 0.1em;
@@ -116,8 +116,13 @@ h3{
 
 /* -----SKILLS----- */
 
-.backgroundcolor-babypink{
+.backgroundcolor-babypink {
     background-color: var(--clr-babypink);
     padding: 2em;
 }
 
+.h3buttonskills{
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-bottom: 1em;
+}
