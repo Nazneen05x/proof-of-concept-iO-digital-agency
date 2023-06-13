@@ -78,7 +78,7 @@ button{
 }
 
 .colorfulbutton{
-    margin-left: 0.5em;
+    margin-left: 0.9em;
 }
 
 .githubicon{
@@ -89,4 +89,10 @@ button{
     position: relative;
     left: 0em;
     top: -0.3em;
+}
+
+
+
+.iologobutton{
+    width: 8em;
 }
