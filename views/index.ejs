@@ -2,20 +2,26 @@
     <main>
         <!-- INTRODUCTION-->
         <div class="backgroundcolor-darkpurple">
-            <img class="iologowhite" src="/download.png" alt="whitelogoio" >
-        <section class="section-introduction">
-            <h1><%- data.name %><span class="ninja">🥷</span></h1>
-            <h2><%- data.personalia.role %></h2>
-            <p class="introduction-p"><%- data.introduction %></p>
-        </section>
+            <img class="iologowhite" src="/download.png" alt="whitelogoio">
+            <section class="section-introduction">
+                <h1><%- data.name %><span class="ninja">🥷</span></h1>
+                <h2><%- data.personalia.role %></h2>
+                <p class="introduction-p"><%- data.introduction %></p>
+            </section>
         </div>
 
         <!-- SOCIAL LINKS -->
-        <section>
+        <section class="colorfulbutton">
             <button>EXAMPLE REGION - NL</button>
             <button class="clrdarkpurple">37 Years old</button>
-            <button>BeauTerHam</button>
+
+            <button>
+                <span><img class="githubicon" src="/github.png" alt=""></span>
+                <span class="BeauTerHam">BeauTerHam</span>
+            </button>
+
             <button class="clrdarkpurple">WithButter</button>
+
             <button>Beau ter Ham</button>
         </section>
 
@@ -72,4 +78,4 @@
                 <% }); %> -->
         </section>
     </main>
-<%- include('./Partials/foot') %>
+    <%- include('./Partials/foot') %>

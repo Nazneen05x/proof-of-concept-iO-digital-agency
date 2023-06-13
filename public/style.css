@@ -61,7 +61,7 @@ h2{
     margin-left: 0.3em;
 }
 
-/* -----CUSTOM PROPERTIES----- */
+/* -----SOCIAL LINKS----- */
 
 button{
     border-radius: 1em;
@@ -75,4 +75,18 @@ button{
 .clrdarkpurple{
     background-color: var(--clr-darkpurple);
     color: white;
+}
+
+.colorfulbutton{
+    margin-left: 0.5em;
+}
+
+.githubicon{
+    width: 1.5em;
+}
+
+.BeauTerHam{
+    position: relative;
+    left: 0em;
+    top: -0.3em;
 }
