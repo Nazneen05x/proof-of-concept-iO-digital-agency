@@ -91,8 +91,19 @@ button{
     top: -0.3em;
 }
 
-
-
 .iologobutton{
     width: 8em;
+}
+
+/* -----SOCIAL LINKS----- */
+
+.motivationp{
+    padding: 2rem;
+    line-height: 1.5em;
+    margin-top: -1em;
+}
+
+h3{
+    margin-left: 1.6em;
+    margin-top: 2em;
 }
