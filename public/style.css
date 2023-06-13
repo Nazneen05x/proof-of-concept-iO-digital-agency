@@ -114,3 +114,10 @@ h3{
     top: 0.1em;
 }
 
+/* -----SKILLS----- */
+
+.backgroundcolor-babypink{
+    background-color: var(--clr-babypink);
+    padding: 2em;
+}
+
