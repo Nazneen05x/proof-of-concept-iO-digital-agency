@@ -39,21 +39,17 @@ h2{
 
 .introduction-p{
     color: white;
-    margin-top: -3rem;
-    padding: 4em;
+    margin-top: -1rem;
+    padding: 2em;
     line-height: 1.5em;
-    margin-left: -3em;
-    position: relative;
-    left: -1em;
+    margin-left: -2em;
 }
 
 
 .iologowhite{
-    width: 12em;
-    position: fixed;
-    left: 19em;
-    z-index: 50;
-    top: 19em;
+    width: 8em;
+    margin-left: 16em;
+    margin-top: -1em;
 }
 
 
