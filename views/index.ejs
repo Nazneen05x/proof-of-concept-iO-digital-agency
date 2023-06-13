@@ -1,10 +1,19 @@
 <%- include('./Partials/head') %>
     <main>
-        <!-- INTRODUCTION/SOCIAL LINKS -->
-        <section>
+        <!-- INTRODUCTION-->
+        <div class="backgroundcolor-darkpurple">
+            <img class="iologowhite" src="/download.png" alt="whitelogoio" >
+        <section class="section-introduction">
             <h1><%- data.name %></h1>
             <h2><%- data.personalia.role %></h2>
-            <p><%- data.introduction %></p>
+            <p class="introduction-p"><%- data.introduction %></p>
+        </section>
+        </div>
+
+        <!-- INTRODUCTION (MOTIVATION)/SOCIAL LINKS -->
+        <section>
+            <h3>Motivation</h3>
+            <p><%- data.motivation %></p>
 
             <h3>EXAMPLE REGION - NL</h3>
             <p>37 Years old</p>
@@ -15,22 +24,22 @@
                 <li>Beau ter Ham</li>
             </ul>
         </section>
-        <!-- INTRODUCTION (MOTIVATION)/SKILLS -->
-        <section>
-            <h3>Motivation</h3>
-            <p><%- data.motivation %></p>
 
-            <% data.skills.forEach(skills=> { %>
+        <!-- SKILLS -->
+        <section>
+            <!-- <% data.skills.forEach(skills=> { %>
                 <ul>
                     <li>
                         <%= skills.label %>
                     </li>
                 </ul>
-                <% }); %>
+                <% }); %> -->
         </section>
+
+
         <!-- PROJECTS/WORK EXPERIENCE -->
         <section>
-            <h3>Projects via iO</h3>
+            <!-- <h3>Projects via iO</h3>
             <% data.projects.forEach(projects=> { %>
                 <p>
                     September 2019-present
@@ -60,11 +69,7 @@
                 </li>
 
                 </ul>
-                <% }); %>
+                <% }); %> -->
         </section>
-
-
-
-
     </main>
-    <%- include('./Partials/foot') %>
+<%- include('./Partials/foot') %>

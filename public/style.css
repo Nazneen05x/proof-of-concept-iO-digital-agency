@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monsterrat, sans-serif;
+}
+
+
+
+/* -----CUSTOM PROPERTIES----- */
+
+:root {
+    --clr-darkpurple: #984065;
+    --clr-babypink: #EEB7CB;
+}
+
+
+
+/* -----MAIN CONTENT STYLING----- */
+
+
+/* -----INTRODUCTION STYLING----- */
+
+.backgroundcolor-darkpurple{
+    background-color: var(--clr-darkpurple);
+    padding: 2rem;
+    overflow:hidden
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+} 
+
+h2{
+    color: white;
+    font-weight: lighter;
+    margin-top: 0.4rem;
+}
+
+.introduction-p{
+    color: white;
+    margin-top: -3rem;
+    padding: 4em;
+    line-height: 1.5em;
+    margin-left: -3em;
+    position: relative;
+    left: -1em;
+}
+
+
+.iologowhite{
+    width: 12em;
+    position: fixed;
+    left: 19em;
+    z-index: 50;
+    top: 19em;
+}
+
+
+.section-introduction{
+    z-index: 100;
+}
