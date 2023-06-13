@@ -126,3 +126,16 @@ h3 {
     margin-left: 0em;
     margin-bottom: 1em;
 }
+
+.iologoblackskills{
+    width: 11em;
+    margin-left: 9.6em;
+    margin-top: -3em;
+}
+
+.h1ninja{
+    left: 8em;
+    position: relative;
+    z-index: 2;
+    top: -9.3em;
+}
