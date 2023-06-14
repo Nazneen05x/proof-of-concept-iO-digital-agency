@@ -28,7 +28,7 @@
 
 h1 {
     color: white;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 h2 {
@@ -128,9 +128,9 @@ h3 {
 }
 
 .h1ninja{
-    left: 7em;
+    left: 5em;
     position: relative;
     z-index: 2;
-    top: -9.3em;
+    top: -6.6em;
 }
 
