@@ -124,6 +124,12 @@ h3 {
     top: 0.1em;
 }
 
+.motivationh3{
+    color: black;
+    margin-left: 1.6em;
+}
+
+
 /* -----SKILLS----- */
 
 .backgroundcolor-babypink {
@@ -135,6 +141,7 @@ h3 {
     margin-top: 0em;
     margin-left: 0em;
     margin-bottom: 1em;
+    color: black;
 }
 
 .h1ninja{
