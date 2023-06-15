@@ -18,7 +18,7 @@
 /* -----MAIN CONTENT STYLING----- */
 
 
-/* -----INTRODUCTION STYLING----- */
+/* -----INTRODUCTION STYLING/SOCIAL LINKS----- */
 
 .backgroundcolor-darkpurple {
     background-color: var(--clr-darkpurple);
@@ -45,13 +45,11 @@ h2 {
     margin-left: -2em;
 }
 
-
 .iologowhite {
     width: 12em;
     margin-left: 14em;
-    margin-top: -3em;
+    margin-top: -1.5em;
 }
-
 
 .section-introduction {
     z-index: 100;
@@ -60,8 +58,6 @@ h2 {
 .ninja {
     margin-left: 0.3em;
 }
-
-/* -----SOCIAL LINKS----- */
 
 button {
     border-radius: 1em;
@@ -95,7 +91,19 @@ button {
     width: 8em;
 }
 
-/* -----SOCIAL LINKS----- */
+.buttonlinks{
+    margin-left: -1em;
+}
+
+.personalbutton{
+    border-color: var(--clr-babypink);
+    border-style: solid;
+    color: white;
+    background: none;
+}
+
+
+/* -----MOTIVATION----- */
 
 .motivationp {
     padding: 2rem;
