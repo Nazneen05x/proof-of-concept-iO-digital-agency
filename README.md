@@ -1,6 +1,6 @@
 > De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# ✨CV - Webpagina✨
+# ✨CV - Webpagina 🍞 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave 📚
