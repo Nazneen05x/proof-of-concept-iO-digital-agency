@@ -13,7 +13,7 @@
                 <button class="beuabutton">More about Beau</button>
                 <button class="personalbutton">EXAMPLE REGION - NL</button>
                 <button class="personalbutton">37 Years old</button>
-                
+
                 <button>
                     <span><img class="githubicon" src="/github.png" alt=""></span>
                     <span class="BeauTerHam">BeauTerHam</span>
@@ -56,23 +56,20 @@
                 <button class="clrdarkpurple">SAFe</button>
             </section>
             <h1><span class="h1ninja">🥷</span></h1>
-        </div> 
-
+        </div>
 
 
         <!-- INTRODUCTION (MOTIVATION) -->
         <section>
-            <h3 class="motivationh3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Motivation</h3>
+            <h3 class="motivationh3"><span><img class="iologoblack" src="/iO-logo-black-002.png"
+                        alt=""></span>Motivation</h3>
             <p class="motivationp"><%- data.motivation %></p>
         </section>
 
-        <!-- PROJECTS/WORK EXPERIENCE -->
-        <section>
-            <!-- <h3>Projects via iO</h3>
+        <!-- PROJECTS -->
+        <!-- <section>
+            <h3>Projects via iO</h3>
             <% data.projects.forEach(projects=> { %>
-                <p>
-                    September 2019-present
-                </p>
 
                 <p>
                     <%= projects.role %>
@@ -83,24 +80,87 @@
                 </p>
 
                 <p>
+                    September 2019-present
+                </p>
+
+                <p>
                     <%= projects.description %>
-                </p <ul>
-                <li>
-                    Angular
-                </li>
+                </p>
 
-                <li>
-                    CSS
-                </li>
+                <ul>
+                    <li>
+                        Angular
+                    </li>
 
-                <li>
-                    JavaScript
-                </li>
+                    <li>
+                        CSS
+                    </li>
+
+                    <li>
+                        JavaScript
+                    </li>
 
                 </ul>
-                <% }); %> -->
-        </section>
+                <% }); %>
+        </section> -->
 
 
+        <!-- WORK EXPERIENCE -->
+        <!-- <section>
+            <h3>Work experience </h3>
+            <% data.experience.forEach(experience=> { %>
+
+                <p>
+                    <%= experience.role %>
+                </p>
+
+
+                <p>
+                    <%= experience.description %>
+                </p>
+
+                <p>
+                    <%= experience.company %>
+                </p>
+
+                <ul>
+                    <li>
+                        <%= experience.stackAndTechniques %>
+                    </li>
+                </ul>
+                <% }); %>
+        </section> -->
+
+
+        <!-- EDUCATION -->
+        <!-- <section>
+            <p>
+                September 2012 - September 2015
+            </p>
+            <% data.education.forEach(education=> { %>
+
+                <p>
+                    <%= education.name %>
+                </p>
+
+                <p>
+                    <%= education.institute %>
+                </p>
+                <% }); %>
+                <p>
+                    December 2016 - December 2016
+                </p>
+        </section> -->
+
+
+        <!-- LANGUAGES -->
+         <section>
+            <% data.languages.forEach(language=> { %>
+
+                <p>
+                    <%= language.name %>
+                </p>
+                <% }); %>
+        </section> 
     </main>
     <%- include('./Partials/foot') %>
