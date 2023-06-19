@@ -220,7 +220,18 @@ h3 {
     color: white;
 }
 
-
+.hidden{
+    opacity:0;
+    transition: 1s;
+    transform: scale(0)
+  }
+  
+  .show{
+    opacity: 1;
+    transform: translateY(-20px);
+    transform: scale(1);
+  }
+  
 /* -----PROJECTS----- */
 
 .rolep{
