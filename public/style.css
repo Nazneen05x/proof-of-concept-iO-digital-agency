@@ -231,8 +231,8 @@ h3 {
     transform: translateY(-20px);
     transform: scale(1);
   }
-  
-/* -----PROJECTS----- */
+
+/* -----WORK EXPERIENCE ----- */
 
 .rolep{
     margin-top: 1.5em;
@@ -254,3 +254,43 @@ h3 {
 .backgroundcolorexperience{
     background-color: var(--clr-darkpurple);
 }
+
+/* -----EDUCATION----- */
+
+.educationsection{
+    margin-left: 2.3em;
+    margin-top: 1em;
+}
+
+.educationname{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.educationinstitute{
+    margin-top: 0.3em;
+}
+
+
+/* -----PUBLICATIONS----- */
+
+.publicationslink{
+    margin-left: 2.5em;
+    font-weight: 700;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+.publicationsdescription{
+    margin-left: 1.5em;
+    margin-top: -2em;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+.publicationstitle{
+    padding: 2em;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+

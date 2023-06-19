@@ -66,6 +66,7 @@
             <p class="motivationp"><%- data.motivation %></p>
         </section>
 
+
         <!-- PROJECTS -->
         <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Projects via iO</h3>
@@ -104,12 +105,12 @@
             </section>
         </div>
 
+
         <!-- WORK EXPERIENCE -->
         <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Work experience</h3>
         </section>
 
-        
        <section class="experiencetekst hidden">
             <% data.experience.forEach(experience=> { %>
                 <p class="rolep">
@@ -136,33 +137,83 @@
    
 
         <!-- EDUCATION -->
-        <!-- <section>
-            <p>
-                September 2012 - September 2015
-            </p>
+        <section>
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Education</h3>
+        </section>
+
+        <section class="educationsection">
             <% data.education.forEach(education=> { %>
 
-                <p>
+                <p class="educationname">
                     <%= education.name %>
                 </p>
 
-                <p>
+                <p class="educationinstitute">
                     <%= education.institute %>
                 </p>
                 <% }); %>
-                <p>
-                    December 2016 - December 2016
-                </p>
-        </section> -->
+        </section> 
 
 
         <!-- LANGUAGES -->
+        <section>
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Languages</h3>
+        </section>
+
         <section>
             <% data.languages.forEach(language=> { %>
 
                 <p>
                     <%= language.name %>
                 </p>
+                <% }); %>
+        </section>
+
+
+        <!-- PUBLICATIONS -->
+        <section>
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Publications</h3>
+        </section>
+
+        <section>
+            <% data.publications.forEach(publications=> { %>
+
+                <p class="publicationstitle">
+                    <%= publications.title %>
+                </p> 
+
+                <p class="publicationsdescription">
+                    <%= publications.description %>
+                </p>
+
+                <p class="publicationslink">
+                    <%= publications.link %> 
+                </p>
+
+                <% }); %>
+        </section>
+
+
+        <!-- SIDEPROJECTS -->
+        <section>
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Sideprojects</h3>
+        </section>
+
+        <section>
+            <% data.sideProjects.forEach(sideProjects=> { %>
+
+                <p class="publicationstitle">
+                    <%= sideProjects.title %>
+                </p> 
+
+                <p class="publicationsdescription">
+                    <%= sideProjects.description %>
+                </p>
+
+                <p class="publicationslink">
+                    <%= sideProjects.link %> 
+                </p>
+
                 <% }); %>
         </section>
     </main>
