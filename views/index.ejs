@@ -105,25 +105,35 @@
         </div>
 
         <!-- WORK EXPERIENCE -->
-       <!-- <section>
-            <h3>Work experience </h3>
-            <% data.experience.forEach(experience=> { %>
+        <section>
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Work experience</h3>
+        </section>
 
-                <p>
+        
+       <section class="experiencetekst">
+            <% data.experience.forEach(experience=> { %>
+                <p class="rolep">
                     <%= experience.role %>
                 </p>
 
-
-                <p>
-                    <%= experience.description %>
-                </p>
-
-                <p>
+                <p class="companypp">
                     <%= experience.company %>
-                </p>
-                <% }); %>
-        </section>  -->
+                </p>   
 
+                <p class="experiencep">
+                    <%= experience.description %>
+                </p> 
+
+                <!-- CODE VAN ROELIE @r20222 -->
+                <% experience.stackAndTechniques.forEach(technique=> { %>
+                    <button class="projectbutton">
+                        <%= technique.name %>
+                    </button>
+               
+                    <% }) %>
+                <% }); %> 
+        </section>   
+   
 
         <!-- EDUCATION -->
         <!-- <section>

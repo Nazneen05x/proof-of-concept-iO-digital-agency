@@ -152,6 +152,7 @@ h3 {
     top: -6.6em;
 }
 
+
 /* -----PROJECTS----- */
 
 .projecth3{
@@ -207,4 +208,38 @@ h3 {
     border-style: solid;
     color: white;
     background: none;
+}
+
+
+.experiencetekst{
+    padding: 2em;
+    margin: 1em;
+    background-color: var(--clr-darkpurple);
+    margin-top: 1em;
+    border-radius: 1em;
+    color: white;
+}
+
+
+/* -----PROJECTS----- */
+
+.rolep{
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--clr-neon);
+}
+
+.experiencep{
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.companypp{
+    margin-top: 0.3em;
+    font-weight: 700;
+}
+
+.backgroundcolorexperience{
+    background-color: var(--clr-darkpurple);
 }
