@@ -11,6 +11,7 @@
 :root {
     --clr-darkpurple: #984065;
     --clr-babypink: #EEB7CB;
+    --clr-neon: #FED0D0;
 }
 
 
@@ -151,3 +152,59 @@ h3 {
     top: -6.6em;
 }
 
+/* -----PROJECTS----- */
+
+.projecth3{
+    color: black;
+    margin-left: 2em;
+}
+
+.backgroundcolorproject{
+    background-color: var(--clr-darkpurple);
+    color: white;
+    height: 51em;
+    border-radius: 1em;
+    margin: 1.5em;
+    padding: 2em;
+
+}
+
+.nummerp{
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.datump{
+    margin-top: 0.2em;
+}
+
+.projectname{
+    font-size: larger;
+    margin-top: 0.6em;
+    font-weight: bold;
+    color: var(--clr-neon);
+}
+
+.companyp{
+    margin-top: 0.3em;
+    font-weight: bold;
+}
+
+.descriptionp{
+    font-size: 15px;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.buttonproject{
+    display: flex;
+    margin-top: 0.5em;
+    margin-left: -0.5em;
+}
+
+.projectbutton{
+    border-color: var(--clr-babypink);
+    border-style: solid;
+    color: white;
+    background: none;
+}

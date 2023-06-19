@@ -67,46 +67,45 @@
         </section>
 
         <!-- PROJECTS -->
-        <!-- <section>
-            <h3>Projects via iO</h3>
-            <% data.projects.forEach(projects=> { %>
+        <section>
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Projects via iO</h3>
+        </section>
 
-                <p>
-                    <%= projects.role %>
-                </p>
+        <div class="backgroundcolorproject">
+            <section>
 
-                <p>
-                    <%= projects.company %>
-                </p>
+                <% data.projects.forEach(projects=> { %>
 
-                <p>
-                    September 2019-present
-                </p>
+                    <p class="nummerp">2019</p>
 
-                <p>
-                    <%= projects.description %>
-                </p>
+                    <p class="datump">
+                        September - present
+                    </p>
 
-                <ul>
-                    <li>
-                        Angular
-                    </li>
+                     <p class="projectname">
+                        <%= projects.role %>
+                    </p>
 
-                    <li>
-                        CSS
-                    </li>
+                    <p class="companyp">
+                        <%= projects.company %>
+                    </p> 
 
-                    <li>
-                        JavaScript
-                    </li>
+                    <p class="descriptionp">
+                        <%= projects.description %>
+                    </p> 
+                <div class="buttonproject">
+                    <button class="projectbutton">Angular</button>
 
-                </ul>
-                <% }); %>
-        </section> -->
+                    <button class="projectbutton">CSS</button>
 
+                    <button class="projectbutton">JavaScript</button> 
+                </div> 
+                    <% }); %>
+            </section>
+        </div>
 
         <!-- WORK EXPERIENCE -->
-        <!-- <section>
+       <!-- <section>
             <h3>Work experience </h3>
             <% data.experience.forEach(experience=> { %>
 
@@ -122,14 +121,8 @@
                 <p>
                     <%= experience.company %>
                 </p>
-
-                <ul>
-                    <li>
-                        <%= experience.stackAndTechniques %>
-                    </li>
-                </ul>
                 <% }); %>
-        </section> -->
+        </section>  -->
 
 
         <!-- EDUCATION -->
@@ -154,13 +147,13 @@
 
 
         <!-- LANGUAGES -->
-         <section>
+        <section>
             <% data.languages.forEach(language=> { %>
 
                 <p>
                     <%= language.name %>
                 </p>
                 <% }); %>
-        </section> 
+        </section>
     </main>
     <%- include('./Partials/foot') %>
