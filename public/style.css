@@ -69,6 +69,11 @@ button {
     background-color: var(--clr-babypink);
 }
 
+button:hover{
+    background-color: var(--clr-neon);
+    color: black;
+}
+
 .clrdarkpurple {
     background-color: var(--clr-darkpurple);
     color: white;
