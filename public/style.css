@@ -109,6 +109,10 @@ button:hover{
     background: none;
 }
 
+.boterhamfoto{
+    display: none;
+}
+
 
 /* -----MOTIVATION----- */
 
@@ -299,3 +303,51 @@ h3 {
     margin-left: 0.5em;
 }
 
+
+
+@media screen and (min-width: 930px){
+
+    /* -----INTRODUCTION STYLING/SOCIAL LINKS----- */
+    .iologowhite {
+        width: 29em;
+        margin-left: 52em;
+        margin-top: -22em;
+    }
+
+
+    .introduction-p {
+        color: white;
+        margin-top: -1rem;
+        padding: 2em;
+        line-height: 1.5em;
+        margin-left: -2em;
+        max-width: 27em;
+
+    }
+
+
+    .buttonlinks {
+        margin-left: 29em;
+        margin-top: -25em;
+        display: grid;
+        justify-content: space-evenly;
+        justify-items: center;
+
+    }
+
+
+    .section-introduction {
+        margin-left: 27em;
+
+    }
+
+    .boterhamfoto{
+        width: 22em;
+        border-radius: 12%;
+        position: absolute;
+        margin-top: 3em;
+        margin-left: 1em;
+        display: block;
+    }
+
+}

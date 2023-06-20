@@ -1,7 +1,9 @@
 <%- include('./Partials/head') %>
     <main>
         <!-- INTRODUCTION-->
+    <div class="grid-container">
         <div class="backgroundcolor-darkpurple">
+            <img class="boterhamfoto" src="/mae-mu-IZ0LRt1khgM-unsplash.jpg" alt="">
             <section class="section-introduction">
                 <h1><%- data.name %></h1>
                 <h2><%- data.personalia.role %></h2>
@@ -31,10 +33,11 @@
                 <img class="iologowhite" src="/download.png" alt="whitelogoio">
             </section>
         </div>
+    </div>
 
 
         <!-- SKILLS -->
-        <div class="backgroundcolor-babypink">
+        <!-- <div class="backgroundcolor-babypink">
             <h3 class="h3buttonskills"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Skills
             </h3>
 
@@ -56,23 +59,23 @@
                 <button class="clrdarkpurple">SAFe</button>
             </section>
             <h1><span class="h1ninja">🥷</span></h1>
-        </div>
+        </div> -->
 
 
         <!-- INTRODUCTION (MOTIVATION) -->
-        <section>
+        <!-- <section>
             <h3 class="motivationh3"><span><img class="iologoblack" src="/iO-logo-black-002.png"
                         alt=""></span>Motivation</h3>
             <p class="motivationp"><%- data.motivation %></p>
-        </section>
+        </section> -->
 
 
         <!-- PROJECTS -->
-        <section>
+        <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Projects via iO</h3>
-        </section>
+        </section> -->
 
-        <div class="backgroundcolorproject hidden">
+        <!-- <div class="backgroundcolorproject hidden">
             <section>
 
                 <% data.projects.forEach(projects=> { %>
@@ -103,15 +106,15 @@
                 </div> 
                     <% }); %>
             </section>
-        </div>
+        </div> -->
 
 
         <!-- WORK EXPERIENCE -->
-        <section>
+        <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Work experience</h3>
-        </section>
+        </section> -->
 
-       <section class="experiencetekst hidden">
+       <!-- <section class="experiencetekst hidden">
             <% data.experience.forEach(experience=> { %>
                 <p class="rolep">
                     <%= experience.role %>
@@ -123,24 +126,24 @@
 
                 <p class="experiencep">
                     <%= experience.description %>
-                </p> 
+                </p>  -->
 
                 <!-- CODE VAN ROELIE @r20222 -->
-                <% experience.stackAndTechniques.forEach(technique=> { %>
+                <!-- <% experience.stackAndTechniques.forEach(technique=> { %>
                     <button class="projectbutton">
                         <%= technique.name %>
                     </button>
                
                     <% }) %>
-                <% }); %> 
-        </section>   
+                <% }); %>  -->
+        <!-- </section>    -->
    
 
         <!-- EDUCATION -->
-        <section>
+        <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Education</h3>
-        </section>
-
+        </section> -->
+<!-- 
         <section class="educationsection">
             <% data.education.forEach(education=> { %>
 
@@ -152,30 +155,30 @@
                     <%= education.institute %>
                 </p>
                 <% }); %>
-        </section> 
+        </section>  -->
 
 
         <!-- LANGUAGES -->
-        <section>
+        <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Languages</h3>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
             <% data.languages.forEach(language=> { %>
 
                 <p>
                     <%= language.name %>
                 </p>
                 <% }); %>
-        </section>
+        </section> -->
 
 
         <!-- PUBLICATIONS -->
-        <section>
+        <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Publications</h3>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
             <% data.publications.forEach(publications=> { %>
 
                 <p class="publicationstitle">
@@ -191,15 +194,15 @@
                 </p>
 
                 <% }); %>
-        </section>
+        </section> -->
 
 
         <!-- SIDEPROJECTS -->
-        <section>
+        <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Sideprojects</h3>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
             <% data.sideProjects.forEach(sideProjects=> { %>
 
                 <p class="publicationstitle">
@@ -215,6 +218,6 @@
                 </p>
 
                 <% }); %>
-        </section>
+        </section> -->
     </main>
     <%- include('./Partials/foot') %>
