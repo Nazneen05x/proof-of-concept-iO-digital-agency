@@ -350,4 +350,21 @@ h3 {
         display: block;
     }
 
+
+    /* -----SKILLS----- */
+    .h1ninja {
+        left: 5.5em;
+        position: relative;
+        /* z-index: 2; */
+        top: -1.6em;
+    }
+
+    .clrdarkpurple {
+        background-color: var(--clr-darkpurple);
+        color: white;
+        /* margin-left: 0.5em; */
+        position: relative;
+        left: 2.5em;
+        top: 1.5em;
+    }
 }
