@@ -313,6 +313,7 @@ h3 {
         width: 29em;
         margin-left: 52em;
         margin-top: -22em;
+        overflow: hidden;
     }
 
 
@@ -413,4 +414,19 @@ h3 {
     .projectswork {
         display: flex;
     }
+
+    .projecth33{
+        color: black;
+        position: relative;
+        left: 2em;
+        top: 3.1em;
+    }
+
+    .projecth3 {
+        color: black;
+        position: relative;
+        left: 40em;
+
+    }
+
     }
