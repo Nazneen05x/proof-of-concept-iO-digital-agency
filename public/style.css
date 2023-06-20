@@ -308,6 +308,7 @@ h3 {
 @media screen and (min-width: 930px){
 
     /* -----INTRODUCTION STYLING/SOCIAL LINKS----- */
+
     .iologowhite {
         width: 29em;
         margin-left: 52em;
@@ -352,6 +353,7 @@ h3 {
 
 
     /* -----SKILLS----- */
+
     .h1ninja {
         left: 5.5em;
         position: relative;
@@ -367,4 +369,20 @@ h3 {
         left: 2.5em;
         top: 1.5em;
     }
-}
+
+    /* -----MOTIVATION----- */
+
+    .motivationp {
+        padding: 2rem;
+        line-height: 1.5em;
+        margin-top: -1em;
+        max-width: 37em;
+    }
+
+    .ninjagif{
+        left: 47em;
+        top: 47em;
+        position: absolute;
+    }
+    
+    }
