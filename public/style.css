@@ -384,5 +384,33 @@ h3 {
         top: 47em;
         position: absolute;
     }
-    
+
+    /* -----PROJECTS----- */
+
+    .backgroundcolorproject {
+        background-color: var(--clr-darkpurple);
+        color: white;
+        height: 32em;
+        border-radius: 1em;
+        margin: 1.5em;
+        padding: 2em;
+    }
+
+    .projectswork{
+        display: flex;
+    }
+
+    .experiencetekst {
+        padding: 2em;
+        margin: 3em;
+        background-color: var(--clr-darkpurple);
+        margin-top: 1.5em;
+        border-radius: 1em;
+        color: white;
+        margin-left: 0em;
+    }
+
+    .projectswork {
+        display: flex;
+    }
     }
