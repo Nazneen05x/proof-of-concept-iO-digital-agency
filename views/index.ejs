@@ -1,39 +1,39 @@
 <%- include('./Partials/head') %>
     <main>
         <!-- INTRODUCTION-->
-    <div class="grid-container">
-        <div class="backgroundcolor-darkpurple">
-            <img class="boterhamfoto" src="/mae-mu-IZ0LRt1khgM-unsplash.jpg" alt="">
-            <section class="section-introduction">
-                <h1><%- data.name %></h1>
-                <h2><%- data.personalia.role %></h2>
-                <h3><span><img class="iologoblack" src="/download.png" alt=""></span>Introduction</h3>
-                <p class="introduction-p"><%- data.introduction %></p>
-            </section>
+        <div class="grid-container">
+            <div class="backgroundcolor-darkpurple">
+                <img class="boterhamfoto" src="/mae-mu-IZ0LRt1khgM-unsplash.jpg" alt="">
+                <section class="section-introduction">
+                    <h1><%- data.name %></h1>
+                    <h2><%- data.personalia.role %></h2>
+                    <h3><span><img class="iologoblack" src="/download.png" alt=""></span>Introduction</h3>
+                    <p class="introduction-p"><%- data.introduction %></p>
+                </section>
 
-            <section class="buttonlinks">
-                <button class="beuabutton">More about Beau</button>
-                <button class="personalbutton">EXAMPLE REGION - NL</button>
-                <button class="personalbutton">37 Years old</button>
+                <section class="buttonlinks">
+                    <button class="beuabutton">More about Beau</button>
+                    <button class="personalbutton">EXAMPLE REGION - NL</button>
+                    <button class="personalbutton">37 Years old</button>
 
-                <button>
-                    <span><img class="githubicon" src="/github.png" alt=""></span>
-                    <span class="BeauTerHam">BeauTerHam</span>
-                </button>
+                    <button>
+                        <span><img class="githubicon" src="/github.png" alt=""></span>
+                        <span class="BeauTerHam">BeauTerHam</span>
+                    </button>
 
-                <button>
-                    <span><img class="githubicon" src="/twitter.png" alt=""></span>
-                    <span class="BeauTerHam">WithButter</span>
-                </button>
+                    <button>
+                        <span><img class="githubicon" src="/twitter.png" alt=""></span>
+                        <span class="BeauTerHam">WithButter</span>
+                    </button>
 
-                <button>
-                    <span><img class="githubicon" src="/linkedin.png" alt=""></span>
-                    <span class="BeauTerHam">Beau ter Ham</span>
-                </button>
-                <img class="iologowhite" src="/download.png" alt="whitelogoio">
-            </section>
+                    <button>
+                        <span><img class="githubicon" src="/linkedin.png" alt=""></span>
+                        <span class="BeauTerHam">Beau ter Ham</span>
+                    </button>
+                    <img class="iologowhite" src="/download.png" alt="whitelogoio">
+                </section>
+            </div>
         </div>
-    </div>
 
 
         <!-- SKILLS -->
@@ -59,7 +59,7 @@
                 <button class="clrdarkpurple">SAFe</button>
             </section>
             <h1><span class="h1ninja">🥷</span></h1>
-        </div> 
+        </div>
 
 
         <!-- INTRODUCTION (MOTIVATION) -->
@@ -68,86 +68,88 @@
                         alt=""></span>Motivation</h3>
             <p class="motivationp"><%- data.motivation %></p>
             <img class="ninjagif" src="/ninja laptop.gif" alt="">
-        </section> 
+        </section>
 
 
         <!-- PROJECTS -->
         <section>
-            <h3 class="projecth33"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Projects via iO</h3>
-        </section> 
+            <h3 class="projecth33"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Projects
+                via iO</h3>
+        </section>
 
         <section>
-            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Work experience</h3>
-        </section> 
+            <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Work
+                experience</h3>
+        </section>
 
         <div class="projectswork">
 
 
-        <div class="backgroundcolorproject hidden">
-            <section>
+            <div class="backgroundcolorproject hidden">
+                <section>
 
-                <% data.projects.forEach(projects=> { %>
+                    <% data.projects.forEach(projects=> { %>
 
-                    <p class="nummerp">2019</p>
+                        <p class="nummerp">2019</p>
 
-                    <p class="datump">
-                        September - present
+                        <p class="datump">
+                            September - present
+                        </p>
+
+                        <p class="projectname">
+                            <%= projects.role %>
+                        </p>
+
+                        <p class="companyp">
+                            <%= projects.company %>
+                        </p>
+
+                        <p class="descriptionp">
+                            <%= projects.description %>
+                        </p>
+                        <div class="buttonproject">
+                            <button class="projectbutton">Angular</button>
+
+                            <button class="projectbutton">CSS</button>
+
+                            <button class="projectbutton">JavaScript</button>
+                        </div>
+                        <% }); %>
+                </section>
+            </div>
+
+
+            <!-- WORK EXPERIENCE -->
+            <section class="experiencetekst hidden">
+                <% data.experience.forEach(experience=> { %>
+                    <p class="rolep">
+                        <%= experience.role %>
                     </p>
 
-                     <p class="projectname">
-                        <%= projects.role %>
+                    <p class="companypp">
+                        <%= experience.company %>
                     </p>
 
-                    <p class="companyp">
-                        <%= projects.company %>
-                    </p> 
+                    <p class="experiencep">
+                        <%= experience.description %>
+                    </p>
 
-                    <p class="descriptionp">
-                        <%= projects.description %>
-                    </p> 
-                <div class="buttonproject">
-                    <button class="projectbutton">Angular</button>
+                    <!-- CODE VAN ROELIE @r20222 -->
+                    <% experience.stackAndTechniques.forEach(technique=> { %>
+                        <button class="projectbutton">
+                            <%= technique.name %>
+                        </button>
 
-                    <button class="projectbutton">CSS</button>
-
-                    <button class="projectbutton">JavaScript</button> 
-                </div> 
-                    <% }); %>
+                        <% }) %>
+                            <% }); %>
             </section>
-        </div> 
-
-
-        <!-- WORK EXPERIENCE -->
-       <section class="experiencetekst hidden">
-            <% data.experience.forEach(experience=> { %>
-                <p class="rolep">
-                    <%= experience.role %>
-                </p>
-
-                <p class="companypp">
-                    <%= experience.company %>
-                </p>   
-
-                <p class="experiencep">
-                    <%= experience.description %>
-                </p> 
-
-                <!-- CODE VAN ROELIE @r20222 -->
-                <% experience.stackAndTechniques.forEach(technique=> { %>
-                    <button class="projectbutton">
-                        <%= technique.name %>
-                    </button>
-               
-                    <% }) %>
-                <% }); %> 
-         </section>    
         </div>
 
         <!-- EDUCATION -->
         <!-- <section>
             <h3 class="projecth3"><span><img class="iologoblack" src="/iO-logo-black-002.png" alt=""></span>Education</h3>
         </section> -->
-<!-- 
+        <!-- 
         <section class="educationsection">
             <% data.education.forEach(education=> { %>
 
