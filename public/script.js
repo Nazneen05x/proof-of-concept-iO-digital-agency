@@ -3,7 +3,10 @@ console.log(beuabuttonscroll)
 const contentskills = document.querySelector(".backgroundcolor-babypink")
 console.log(contentskills)
 
+
+
 beuabuttonscroll.addEventListener("click", skillsscroll)
+
 
 
 function skillsscroll(){
@@ -16,6 +19,8 @@ function skillsscroll(){
     }
     )
 }
+
+
 
 // Scroll animation
 // bron: https://www.youtube.com/watch?v=T33NN_pPeNI
@@ -32,3 +37,11 @@ const observer = new IntersectionObserver((entries) => {
   
   const hiddenElements = document.querySelectorAll('.hidden');
   hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+
+
+
+
+
