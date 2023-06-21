@@ -41,7 +41,7 @@ h2 {
 
 .introduction-p {
     color: white;
-    margin-top: -1rem;
+    margin-top: -3rem;
     padding: 2em;
     line-height: 1.5em;
     margin-left: -2em;
@@ -49,13 +49,31 @@ h2 {
 
 .iologowhite {
     width: 12em;
-    margin-left: 14em;
-    margin-top: -1.5em;
+    margin-left: 17em;
+    margin-top: 2.5em;
 }
+
+.iologoblackIntroduction{
+    color: white;
+    width: 2em;
+    position: relative;
+    top: -2em;
+    left: 0em;
+}
+
+.Introductionkopje{
+    color: white;
+    position: relative;
+    white-space: nowrap;
+    left: 2em;
+    top: -0.5em;
+}
+
 
 .section-introduction {
     z-index: 100;
 }
+
 
 .ninja {
     margin-left: 0.3em;
@@ -129,6 +147,22 @@ h3 {
     color: white;
 }
 
+.motivationkopje{
+    color: black;
+    position: relative;
+    white-space: nowrap;
+    left: 4em;
+    top: 1.2em;
+}
+
+.iologoblackmotivation{
+    width: 2em;
+    position: relative;
+    top: 0em;
+    left: 2em;
+}
+
+
 .iologoblack {
     width: 1.5em;
     position: relative;
@@ -155,11 +189,29 @@ h3 {
     color: black;
 }
 
+.skillskopje{
+    color: black;
+    position: relative;
+    white-space: nowrap;
+    left: 2.1em;
+    top: 0.4em;
+
+}
+
+.iologoblackskills{
+    width: 2em;
+    position: relative;
+    top: -1em;
+    left: 0em;
+
+}
+
+
 .h1ninja{
     left: 5em;
     position: relative;
     z-index: 2;
-    top: -6.6em;
+    top: -5.4em;
 }
 
 
