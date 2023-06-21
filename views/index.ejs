@@ -42,9 +42,9 @@
             <section>
                 <h3 class="skillskopje">Skills</h3>
             </section>
-    
+
             <section>
-            <img class="iologoblackskills" src="/iO-logo-black-002.png" alt="logoblack">
+                <img class="iologoblackskills" src="/iO-logo-black-002.png" alt="logoblack">
             </section>
 
             <section>
@@ -65,25 +65,26 @@
                 <button class="clrdarkpurple">SAFe</button>
             </section>
             <h1><span class="h1ninja">🥷</span></h1>
-            <img class="refreshicon" src="/rotate-ccw.svg" alt="rotateicon"><span class="Refreshtitle">Refresh page</span>
+            <img class="refreshicon" src="/rotate-ccw.svg" alt="rotateicon"><span class="Refreshtitle">Refresh
+                page</span>
         </div>
 
 
         <!-- INTRODUCTION (MOTIVATION) -->
         <div class="backgroundcolormotivation">
-        
-        <section>
-                <h3 class="motivationkopje">Motivation</h3>
-        </section>
 
-        <section>
-            <img class="iologoblackmotivation" src="/iO-logo-black-002.png" alt="logoblack">
-        </section>
-        
-        <section>
-            <p class="motivationp"><%- data.motivation %></p>
-            <img class="ninjagif" src="/ninja laptop.gif" alt="">
-        </section>
+            <section>
+                <h3 class="motivationkopje">Motivation</h3>
+            </section>
+
+            <section>
+                <img class="iologoblackmotivation" src="/iO-logo-black-002.png" alt="logoblack">
+            </section>
+
+            <section>
+                <p class="motivationp"><%- data.motivation %></p>
+                <img class="ninjagif" src="/ninja laptop.gif" alt="">
+            </section>
         </div>
 
         <!-- PROJECTS -->
@@ -128,18 +129,18 @@
                         <% }); %>
                 </section>
             </div>
-        <!-- PROJECTS END -->
+            <!-- PROJECTS END -->
 
 
-        <!-- WORK EXPERIENCE -->
+            <!-- WORK EXPERIENCE -->
             <section>
                 <h3 class="workkopje">Work experience</h3>
             </section>
-    
+
             <section>
                 <img class="iologoblackwork" src="/iO-logo-black-002.png" alt="logoblack">
             </section>
-            
+
             <section class="experiencetekst hidden">
                 <% data.experience.forEach(experience=> { %>
                     <p class="rolep">
@@ -167,116 +168,116 @@
 
         <div class="sidecontent">
 
-        <!-- EDUCATION -->
-        <section class="cardcolor">
+            <!-- EDUCATION -->
+            <section class="cardcolor">
 
-        <section>
-            <h3 class="Educationtkopje">Education</h3>
-        </section>
+                <section>
+                    <h3 class="Educationtkopje">Education</h3>
+                </section>
 
-        <section>
-            <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
-        </section>
-        
-        <section class="educationsection">
-            <% data.education.forEach(education=> { %>
+                <section>
+                    <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
+                </section>
 
-                <p class="educationname">
-                    <%= education.name %>
-                </p>
+                <section class="educationsection">
+                    <% data.education.forEach(education=> { %>
 
-                <p class="educationinstitute">
-                    <%= education.institute %>
-                </p>
-                <% }); %>
-        </section>  
-        </section>
-        <!-- EDUCATION END -->
-        
+                        <p class="educationname">
+                            <%= education.name %>
+                        </p>
 
-        <!-- LANGUAGES -->
-        <section class="cardcolorlang">
-        <section>
-            <h3 class="Educationtkopje">Languages</h3>
-        </section>
-
-        <section>
-            <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
-        </section>
-
-        <!-- CODE AANGEPAST (CODE KOMT OORSPRONKELIJK VAN ROELIE Github:@r202220) -->
-        <% data.languages.forEach(lang=> { %>
-            <section>
-                <% if (lang.language && lang.proficiency) { %>
-                    <section>
-                        <p class="languagenameandproficiency"><%- lang.language.name %></p>
-                        <p class="languagenameandproficiency"><%- lang.proficiency.name %></p>
-                    </section>
-                    <% } %>
-
+                        <p class="educationinstitute">
+                            <%= education.institute %>
+                        </p>
+                        <% }); %>
+                </section>
             </section>
-            <% }) %>
-        </section>
+            <!-- EDUCATION END -->
 
-        <!-- PUBLICATIONS -->
 
-        <section class="cardcolorpublic">
-        <section>
-            <h3 class="Educationtkopje">Publications</h3>
-        </section>
+            <!-- LANGUAGES -->
+            <section class="cardcolorlang">
+                <section>
+                    <h3 class="Educationtkopje">Languages</h3>
+                </section>
 
-        <section>
-            <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
-        </section>
+                <section>
+                    <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
+                </section>
 
-        <section>
-            <% data.publications.forEach(publications=> { %>
+                <!-- CODE AANGEPAST (CODE KOMT OORSPRONKELIJK VAN ROELIE Github:@r202220) -->
+                <% data.languages.forEach(lang=> { %>
+                    <section>
+                        <% if (lang.language && lang.proficiency) { %>
+                            <section>
+                                <p class="languagenameandproficiency"><%- lang.language.name %></p>
+                                <p class="languagenameandproficiency"><%- lang.proficiency.name %></p>
+                            </section>
+                            <% } %>
 
-                <p class="publicationstitle">
-                    <%= publications.title %>
-                </p> 
+                    </section>
+                    <% }) %>
+            </section>
 
-                <p class="publicationsdescription">
-                    <%= publications.description %>
-                </p>
+            <!-- PUBLICATIONS -->
 
-                <p class="publicationslink">
-                    <%= publications.link %> 
-                </p>
+            <section class="cardcolorpublic">
+                <section>
+                    <h3 class="Educationtkopje">Publications</h3>
+                </section>
 
-                <% }); %>
-        </section> 
-        </section>
+                <section>
+                    <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
+                </section>
 
-        <!-- SIDEPROJECTS -->
-        <section class="cardcolorlang">
+                <section>
+                    <% data.publications.forEach(publications=> { %>
 
-        <section>
-            <h3 class="Educationtkopje">Sideprojects</h3>
-        </section>
+                        <p class="publicationstitle">
+                            <%= publications.title %>
+                        </p>
 
-        <section>
-            <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
-        </section>
+                        <p class="publicationsdescription">
+                            <%= publications.description %>
+                        </p>
 
-         <section>
-            <% data.sideProjects.forEach(sideProjects=> { %>
+                        <p class="publicationslink">
+                            <%= publications.link %>
+                        </p>
 
-                <p class="publicationstitle">
-                    <%= sideProjects.title %>
-                </p> 
+                        <% }); %>
+                </section>
+            </section>
 
-                <p class="publicationsdescription">
-                    <%= sideProjects.description %>
-                </p>
+            <!-- SIDEPROJECTS -->
+            <section class="cardcolorlang">
 
-                <p class="publicationslink">
-                    <%= sideProjects.link %> 
-                </p>
+                <section>
+                    <h3 class="Educationtkopje">Sideprojects</h3>
+                </section>
 
-                <% }); %>
-        </section> 
-        </section>
-    </div>
+                <section>
+                    <img class="iologoblackEducation" src="/iO-logo-black-002.png" alt="logoblack">
+                </section>
+
+                <section>
+                    <% data.sideProjects.forEach(sideProjects=> { %>
+
+                        <p class="publicationstitle">
+                            <%= sideProjects.title %>
+                        </p>
+
+                        <p class="publicationsdescription">
+                            <%= sideProjects.description %>
+                        </p>
+
+                        <p class="publicationslink">
+                            <%= sideProjects.link %>
+                        </p>
+
+                        <% }); %>
+                </section>
+            </section>
+        </div>
     </main>
     <%- include('./Partials/foot') %>

@@ -31,7 +31,6 @@ h1 {
     color: white;
     font-size: xxx-large;
     font-family: 'Caveat', cursive;
-    /* font-family: 'Tilt Prism', cursive; */
 }
 
 h2 {
@@ -56,7 +55,7 @@ h2 {
     margin-top: 2.5em;
 }
 
-.iologoblackIntroduction{
+.iologoblackIntroduction {
     color: white;
     width: 2em;
     position: relative;
@@ -64,7 +63,7 @@ h2 {
     left: 0em;
 }
 
-.Introductionkopje{
+.Introductionkopje {
     color: white;
     position: relative;
     white-space: nowrap;
@@ -91,7 +90,7 @@ button {
     background-color: var(--clr-babypink);
 }
 
-button:hover{
+button:hover {
     background-color: var(--clr-neon);
     color: black;
 }
@@ -102,27 +101,52 @@ button:hover{
     position: relative;
     animation-name: example;
     animation-duration: 4s;
-    
+
 }
 
 @keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
 
 
-.refreshicon{
+.refreshicon {
     position: relative;
     top: 0.4em;
 }
 
-.Refreshtitle{
+.Refreshtitle {
     position: relative;
     left: 0.3em;
 }
+
 .colorfulbutton {
     margin-left: 0.9em;
 }
@@ -141,19 +165,19 @@ button:hover{
     width: 8em;
 }
 
-.buttonlinks{
+.buttonlinks {
     margin-left: -1em;
     margin-top: -1em;
 }
 
-.personalbutton{
+.personalbutton {
     border-color: var(--clr-babypink);
     border-style: solid;
     color: white;
     background: none;
 }
 
-.boterhamfoto{
+.boterhamfoto {
     display: none;
 }
 
@@ -172,7 +196,7 @@ h3 {
     color: white;
 }
 
-.motivationkopje{
+.motivationkopje {
     color: black;
     position: relative;
     white-space: nowrap;
@@ -180,7 +204,7 @@ h3 {
     top: 1.2em;
 }
 
-.iologoblackmotivation{
+.iologoblackmotivation {
     width: 2em;
     position: relative;
     top: 0em;
@@ -194,7 +218,7 @@ h3 {
     top: 0.1em;
 }
 
-.motivationh3{
+.motivationh3 {
     color: black;
     margin-left: 1.6em;
 }
@@ -207,14 +231,14 @@ h3 {
     padding: 2em;
 }
 
-.h3buttonskills{
+.h3buttonskills {
     margin-top: 0em;
     margin-left: 0em;
     margin-bottom: 1em;
     color: black;
 }
 
-.skillskopje{
+.skillskopje {
     color: black;
     position: relative;
     white-space: nowrap;
@@ -223,7 +247,7 @@ h3 {
 
 }
 
-.iologoblackskills{
+.iologoblackskills {
     width: 2em;
     position: relative;
     top: -1em;
@@ -232,7 +256,7 @@ h3 {
 }
 
 
-.h1ninja{
+.h1ninja {
     left: 5em;
     position: relative;
     z-index: 2;
@@ -243,12 +267,12 @@ h3 {
 
 /* -----PROJECTS----- */
 
-.projecth3{
+.projecth3 {
     color: black;
     margin-left: 2em;
 }
 
-.backgroundcolorproject{
+.backgroundcolorproject {
     background-color: var(--clr-darkpurple);
     color: white;
     height: 53em;
@@ -258,40 +282,40 @@ h3 {
 
 }
 
-.nummerp{
+.nummerp {
     font-size: xxx-large;
     font-weight: bolder;
 }
 
-.datump{
+.datump {
     margin-top: 0.2em;
 }
 
-.projectname{
+.projectname {
     font-size: larger;
     margin-top: 0.6em;
     font-weight: bold;
     color: var(--clr-neon);
 }
 
-.companyp{
+.companyp {
     margin-top: 0.3em;
     font-weight: bold;
 }
 
-.descriptionp{
+.descriptionp {
     font-size: 15px;
     margin-top: 1em;
     line-height: 1.5em;
 }
 
-.buttonproject{
+.buttonproject {
     display: flex;
     margin-top: 0.5em;
     margin-left: -0.5em;
 }
 
-.projectbutton{
+.projectbutton {
     border-color: var(--clr-babypink);
     border-style: solid;
     color: white;
@@ -299,7 +323,7 @@ h3 {
 }
 
 
-.experiencetekst{
+.experiencetekst {
     padding: 2em;
     margin: 1em;
     background-color: var(--clr-darkpurple);
@@ -308,19 +332,19 @@ h3 {
     color: white;
 }
 
-.hidden{
-    opacity:0;
+.hidden {
+    opacity: 0;
     transition: 1s;
     transform: scale(0)
-  }
-  
-  .show{
+}
+
+.show {
     opacity: 1;
     transform: translateY(-20px);
     transform: scale(1);
 }
-  
-.projectkopje{
+
+.projectkopje {
     color: black;
     position: relative;
     left: 4.8em;
@@ -328,7 +352,7 @@ h3 {
 }
 
 
-.iologoblackproject{
+.iologoblackproject {
     width: 2em;
     position: relative;
     top: 0.1em;
@@ -338,35 +362,35 @@ h3 {
 
 /* -----WORK EXPERIENCE ----- */
 
-.rolep{
+.rolep {
     margin-top: 1.5em;
     font-weight: bold;
     font-size: 18px;
     color: var(--clr-neon);
 }
 
-.experiencep{
+.experiencep {
     margin-top: 1em;
     line-height: 1.5em;
 }
 
-.companypp{
+.companypp {
     margin-top: 0.3em;
     font-weight: 700;
 }
 
-.backgroundcolorexperience{
+.backgroundcolorexperience {
     background-color: var(--clr-darkpurple);
 }
 
-.workkopje{
+.workkopje {
     color: black;
     position: relative;
     left: 4.8em;
     top: 1.3em;
 }
 
-.iologoblackwork{
+.iologoblackwork {
     width: 2em;
     position: relative;
     top: 0.1em;
@@ -375,21 +399,21 @@ h3 {
 
 /* -----EDUCATION----- */
 
-.educationsection{
+.educationsection {
     margin-left: 2.3em;
     margin-top: 1em;
 }
 
-.educationname{
+.educationname {
     font-weight: bold;
     margin-top: 1em;
 }
 
-.educationinstitute{
+.educationinstitute {
     margin-top: 0.3em;
 }
 
-.Educationtkopje{
+.Educationtkopje {
     color: black;
     position: relative;
     white-space: nowrap;
@@ -399,7 +423,7 @@ h3 {
 }
 
 
-.iologoblackEducation{
+.iologoblackEducation {
     color: white;
     width: 2em;
     position: relative;
@@ -409,46 +433,46 @@ h3 {
 
 /* -----PUBLICATIONS----- */
 
-.publicationslink{
+.publicationslink {
     margin-left: 2.5em;
     font-weight: 700;
     margin-top: 0em;
     margin-bottom: 1em;
 }
 
-.publicationsdescription{
+.publicationsdescription {
     margin-left: 1.5em;
     margin-top: -2em;
     padding: 1em;
     line-height: 1.5em;
 }
 
-.publicationstitle{
+.publicationstitle {
     padding: 2em;
     font-weight: bold;
     margin-left: 0.5em;
     margin-top: -1em;
 }
 
-.languagenameandproficiency{
+.languagenameandproficiency {
     margin-left: 2.3em;
     margin-top: 1em;
 }
 
-.ninjagif{
+.ninjagif {
     margin-left: 0em;
 }
 
-.cardcolor{
+.cardcolor {
     background-color: var(--clr-neon);
     color: black;
     height: 16em;
     border-radius: 1em;
     margin: 2em;
     padding: 1em;
-} 
+}
 
-.cardcolorlang{
+.cardcolorlang {
     background-color: var(--clr-neon);
     color: black;
     height: 22em;
@@ -457,7 +481,7 @@ h3 {
     padding: 1em;
 }
 
-.cardcolorpublic{
+.cardcolorpublic {
     background-color: var(--clr-neon);
     color: black;
     height: 41em;
@@ -466,11 +490,9 @@ h3 {
     padding: 1em;
 }
 
-/* .sidecontent{
-    display: flex;
-} */
 
-@media screen and (min-width: 930px){
+
+@media screen and (min-width: 930px) {
 
     /* -----INTRODUCTION STYLING/SOCIAL LINKS----- */
 
@@ -491,7 +513,7 @@ h3 {
         max-width: 27em;
     }
 
-    
+
 
 
     .buttonlinks {
@@ -509,7 +531,7 @@ h3 {
 
     }
 
-    .boterhamfoto{
+    .boterhamfoto {
         width: 22em;
         border-radius: 12%;
         position: absolute;
@@ -524,14 +546,13 @@ h3 {
     .h1ninja {
         left: 5.5em;
         position: relative;
-        /* z-index: 2; */
         top: -1.6em;
     }
 
     .clrdarkpurple {
         background-color: var(--clr-darkpurple);
         color: white;
-       overflow: hidden;
+        overflow: hidden;
         position: relative;
         left: 2.5em;
         top: 1.5em;
@@ -561,13 +582,13 @@ h3 {
         margin-left: 9em;
     }
 
-    .ninjagif{
+    .ninjagif {
         left: 47em;
         top: 47em;
         position: absolute;
     }
 
- 
+
 
     /* -----PROJECTS----- */
 
@@ -580,7 +601,7 @@ h3 {
         padding: 2em;
     }
 
-    .projectswork{
+    .projectswork {
         display: flex;
     }
 
@@ -598,7 +619,7 @@ h3 {
         display: flex;
     }
 
-    .projecth33{
+    .projecth33 {
         color: black;
         position: relative;
         left: 2em;
@@ -615,7 +636,7 @@ h3 {
 
     /* -----LANGUAGES----- */
 
-    .languagenameandproficiency{
+    .languagenameandproficiency {
         margin-left: 2.3em;
         margin-top: 1em;
     }
@@ -628,7 +649,7 @@ h3 {
         max-width: 27em;
     }
 
-    .cardcolor{
+    .cardcolor {
         background-color: var(--clr-neon);
         color: black;
         height: 16em;
@@ -636,9 +657,9 @@ h3 {
         margin: 2em;
         padding: 1em;
         width: 23em;
-    } 
+    }
 
-    .cardcolorlang{
+    .cardcolorlang {
         background-color: var(--clr-neon);
         color: black;
         height: 22em;
@@ -648,7 +669,7 @@ h3 {
         width: 23em;
     }
 
-    .cardcolorpublic{
+    .cardcolorpublic {
         background-color: var(--clr-neon);
         color: black;
         height: 41em;
@@ -658,27 +679,27 @@ h3 {
         width: 23em;
     }
 
-    .sidecontent{
+    .sidecontent {
         display: flex;
     }
 
     /* -----LOGO AND FONT----- */
 
-    .projectkopje{
+    .projectkopje {
         color: black;
         position: relative;
         left: 4.1em;
         top: 1.2em;
     }
 
-    .iologoblackproject{
+    .iologoblackproject {
         width: 1.5em;
         position: relative;
         top: 0.1em;
         left: 3em;
     }
 
-    .workkopje{
+    .workkopje {
         color: black;
         position: relative;
         white-space: nowrap;
@@ -686,14 +707,14 @@ h3 {
         top: -3em;
     }
 
-    .iologoblackwork{
+    .iologoblackwork {
         width: 1.5em;
         position: relative;
         top: -1em;
         left: -6em;
     }
 
-    .motivationkopje{
+    .motivationkopje {
         color: black;
         position: relative;
         white-space: nowrap;
@@ -701,30 +722,30 @@ h3 {
         top: 1.9em;
     }
 
-    .iologoblackmotivation{
+    .iologoblackmotivation {
         width: 1.5em;
         position: relative;
         top: 1em;
         left: 11em;
     }
 
-    .skillskopje{
+    .skillskopje {
         color: black;
         position: relative;
         white-space: nowrap;
         left: 33.5em;
         top: -1.5em;
-    
+
     }
 
-    .iologoblackskills{
+    .iologoblackskills {
         width: 1.5em;
         position: relative;
         top: -3em;
         left: 37.4em;
     }
 
-    .Introductionkopje{
+    .Introductionkopje {
         color: white;
         position: relative;
         white-space: nowrap;
@@ -732,7 +753,7 @@ h3 {
         top: -0.6em;
     }
 
-    .iologoblackIntroduction{
+    .iologoblackIntroduction {
         color: white;
         width: 1.5em;
         position: relative;
@@ -740,16 +761,16 @@ h3 {
         left: 0em;
     }
 
-    .Educationtkopje{
+    .Educationtkopje {
         color: black;
         position: relative;
         white-space: nowrap;
         left: 3.2em;
         top: 0.2em;
     }
-    
 
-    .iologoblackEducation{
+
+    .iologoblackEducation {
         color: white;
         width: 1.5em;
         position: relative;
@@ -764,6 +785,3 @@ h3 {
         margin-top: -2em;
     }
 }
-
-
-

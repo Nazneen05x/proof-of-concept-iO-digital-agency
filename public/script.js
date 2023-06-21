@@ -9,15 +9,15 @@ beuabuttonscroll.addEventListener("click", skillsscroll)
 
 
 
-function skillsscroll(){
-    contentskills.scrollIntoView({
-        behavior: "smooth",
+function skillsscroll() {
+  contentskills.scrollIntoView({
+    behavior: "smooth",
 
-        block: "center",
+    block: "center",
 
-        inline: "nearest",
-    }
-    )
+    inline: "nearest",
+  }
+  )
 }
 
 
@@ -25,18 +25,18 @@ function skillsscroll(){
 // Scroll animation
 // bron: https://www.youtube.com/watch?v=T33NN_pPeNI
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) =>{
-      console.log(entry)
-      if (entry.isIntersecting){
-        entry.target.classList.add('show');
-      } else {
-        entry.target.classList.remove('show');
-      } 
-    });
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
   });
-  
-  const hiddenElements = document.querySelectorAll('.hidden');
-  hiddenElements.forEach((el) => observer.observe(el));
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
 
 
 
