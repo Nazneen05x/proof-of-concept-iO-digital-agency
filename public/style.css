@@ -319,13 +319,14 @@ h3 {
 
     .introduction-p {
         color: white;
-        margin-top: -1rem;
+        margin-top: -2rem;
         padding: 2em;
         line-height: 1.5em;
         margin-left: -2em;
         max-width: 27em;
-
     }
+
+    
 
 
     .buttonlinks {
@@ -365,19 +366,34 @@ h3 {
     .clrdarkpurple {
         background-color: var(--clr-darkpurple);
         color: white;
-        /* margin-left: 0.5em; */
+       overflow: hidden;
         position: relative;
         left: 2.5em;
         top: 1.5em;
     }
 
+    .h3buttonskills {
+        margin-top: 0em;
+        margin-left: 32em;
+        margin-bottom: 1em;
+        color: black;
+    }
+
     /* -----MOTIVATION----- */
+
+    .motivationh3 {
+        color: black;
+        position: relative;
+        left: 7.7em;
+        top: 1em;
+    }
 
     .motivationp {
         padding: 2rem;
         line-height: 1.5em;
-        margin-top: -1em;
+        margin-top: 0em;
         max-width: 37em;
+        margin-left: 9em;
     }
 
     .ninjagif{
@@ -385,6 +401,8 @@ h3 {
         top: 47em;
         position: absolute;
     }
+
+ 
 
     /* -----PROJECTS----- */
 
@@ -408,7 +426,7 @@ h3 {
         margin-top: 1.5em;
         border-radius: 1em;
         color: white;
-        margin-left: 0em;
+        margin-left: -10em;
     }
 
     .projectswork {
@@ -422,11 +440,159 @@ h3 {
         top: 3.1em;
     }
 
-    .projecth3 {
+    .projecth333 {
         color: black;
         position: relative;
-        left: 40em;
+        left: 42em;
+        top: -0.1em;
 
     }
 
+    /* -----LANGUAGES----- */
+
+    .languagenameandproficiency{
+        margin-left: 2.3em;
+        margin-top: 1em;
     }
+
+    .publicationsdescription {
+        margin-left: 1.5em;
+        margin-top: -2em;
+        padding: 1em;
+        line-height: 1.5em;
+        max-width: 27em;
+    }
+
+    .cardcolor{
+        background-color: var(--clr-neon);
+        color: black;
+        height: 16em;
+        border-radius: 1em;
+        margin: 2em;
+        padding: 1em;
+        width: 23em;
+    } 
+
+    .cardcolorlang{
+        background-color: var(--clr-neon);
+        color: black;
+        height: 22em;
+        border-radius: 1em;
+        margin: 2em;
+        padding: 1em;
+        width: 23em;
+    }
+
+    .cardcolorpublic{
+        background-color: var(--clr-neon);
+        color: black;
+        height: 41em;
+        border-radius: 1em;
+        margin: 2em;
+        padding: 1em;
+        width: 23em;
+    }
+
+    .sidecontent{
+        display: flex;
+    }
+
+    /* -----LOGO AND FONT----- */
+
+    .projectkopje{
+        color: black;
+        position: relative;
+        left: 4.1em;
+        top: 1.2em;
+    }
+
+    .iologoblackproject{
+        width: 1.5em;
+        position: relative;
+        top: 0.1em;
+        left: 3em;
+    }
+
+    .workkopje{
+        color: black;
+        position: relative;
+        white-space: nowrap;
+        left: 4.3em;
+        top: -3em;
+    }
+
+    .iologoblackwork{
+        width: 1.5em;
+        position: relative;
+        top: -1em;
+        left: -6em;
+    }
+
+    .motivationkopje{
+        color: black;
+        position: relative;
+        white-space: nowrap;
+        left: 11em;
+        top: 1.9em;
+    }
+
+    .iologoblackmotivation{
+        width: 1.5em;
+        position: relative;
+        top: 1em;
+        left: 11em;
+    }
+
+    .skillskopje{
+        color: black;
+        position: relative;
+        white-space: nowrap;
+        left: 33.5em;
+        top: -1.5em;
+    
+    }
+
+    .iologoblackskills{
+        width: 1.5em;
+        position: relative;
+        top: -3em;
+        left: 37.4em;
+    }
+
+    .Introductionkopje{
+        color: white;
+        position: relative;
+        white-space: nowrap;
+        left: 1.5em;
+        top: 0.2em;
+    }
+
+    .iologoblackIntroduction{
+        color: white;
+        width: 1.5em;
+        position: relative;
+        top: -1em;
+        left: 0em;
+    }
+
+    .Educationtkopje{
+        color: black;
+        position: relative;
+        white-space: nowrap;
+        left: 3.2em;
+        top: 0.2em;
+    }
+    
+
+    .iologoblackEducation{
+        color: white;
+        width: 1.5em;
+        position: relative;
+        top: -1em;
+        left: 2em;
+    }
+
+}
+
+
+
