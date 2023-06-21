@@ -370,8 +370,9 @@ h3 {
     color: black;
     position: relative;
     white-space: nowrap;
-    left: 3.2em;
-    top: 0.2em;
+    left: 4em;
+    top: 0.4em;
+
 }
 
 
@@ -403,9 +404,48 @@ h3 {
     padding: 2em;
     font-weight: bold;
     margin-left: 0.5em;
+    margin-top: -1em;
 }
 
+.languagenameandproficiency{
+    margin-left: 2.3em;
+    margin-top: 1em;
+}
 
+.ninjagif{
+    margin-left: 0em;
+}
+
+.cardcolor{
+    background-color: var(--clr-neon);
+    color: black;
+    height: 16em;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em;
+} 
+
+.cardcolorlang{
+    background-color: var(--clr-neon);
+    color: black;
+    height: 22em;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em;
+}
+
+.cardcolorpublic{
+    background-color: var(--clr-neon);
+    color: black;
+    height: 41em;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em;
+}
+
+/* .sidecontent{
+    display: flex;
+} */
 
 @media screen and (min-width: 930px){
 
