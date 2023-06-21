@@ -30,13 +30,16 @@
 h1 {
     color: white;
     font-size: xxx-large;
-    font-family: 'Tilt Prism', cursive;
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Tilt Prism', cursive; */
 }
 
 h2 {
     color: white;
     font-weight: lighter;
     margin-top: 0.4rem;
+    white-space: nowrap;
+    font-size: 22px;
 }
 
 .introduction-p {
@@ -49,7 +52,7 @@ h2 {
 
 .iologowhite {
     width: 12em;
-    margin-left: 17em;
+    margin-left: 14em;
     margin-top: 2.5em;
 }
 
@@ -211,7 +214,7 @@ h3 {
     left: 5em;
     position: relative;
     z-index: 2;
-    top: -5.4em;
+    top: -6.6em;
 }
 
 
@@ -225,7 +228,7 @@ h3 {
 .backgroundcolorproject{
     background-color: var(--clr-darkpurple);
     color: white;
-    height: 51em;
+    height: 53em;
     border-radius: 1em;
     margin: 1.5em;
     padding: 2em;
@@ -292,7 +295,23 @@ h3 {
     opacity: 1;
     transform: translateY(-20px);
     transform: scale(1);
-  }
+}
+  
+.projectkopje{
+    color: black;
+    position: relative;
+    left: 4.8em;
+    top: 1.3em;
+}
+
+
+.iologoblackproject{
+    width: 2em;
+    position: relative;
+    top: 0.1em;
+    left: 3em;
+}
+
 
 /* -----WORK EXPERIENCE ----- */
 
@@ -317,6 +336,20 @@ h3 {
     background-color: var(--clr-darkpurple);
 }
 
+.workkopje{
+    color: black;
+    position: relative;
+    left: 4.8em;
+    top: 1.3em;
+}
+
+.iologoblackwork{
+    width: 2em;
+    position: relative;
+    top: 0.1em;
+    left: 3em;
+}
+
 /* -----EDUCATION----- */
 
 .educationsection{
@@ -333,6 +366,22 @@ h3 {
     margin-top: 0.3em;
 }
 
+.Educationtkopje{
+    color: black;
+    position: relative;
+    white-space: nowrap;
+    left: 3.2em;
+    top: 0.2em;
+}
+
+
+.iologoblackEducation{
+    color: white;
+    width: 2em;
+    position: relative;
+    top: -1em;
+    left: 2em;
+}
 
 /* -----PUBLICATIONS----- */
 
