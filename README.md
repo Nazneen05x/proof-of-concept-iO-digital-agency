@@ -1,7 +1,8 @@
 > De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ✨CV - Webpagina 🍞 
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+<img width="500" alt="" src="https://github.com/Nazneen05x/proof-of-concept-iO-digital-agency/assets/112861261/51800210-b06d-4f39-b9bd-eb842780fb13">
 
 ## Inhoudsopgave 📚
 
