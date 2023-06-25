@@ -14,9 +14,14 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📃 (Gebruik 👥) 
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+<strong>iO Digital Agency</strong>
+
+ iO Digital Agency is een gemixte agency die technologie, creatie, strategie, content en consulting aanbiedt aan hun klanten. 
+
+<strong>Persoonlijk cv</strong>
+
+De opdracht was een persoonlijk cv maken in webpagina vorm, zodat hiring managers werknemers (frontenders) van iO Digital Agency kunnen aannemen of bekijken.
 
 
 ## Kenmerken 🖇️
